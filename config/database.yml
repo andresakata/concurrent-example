@@ -1,0 +1,18 @@
+default: &default
+  adapter: mysql2
+
+development:
+  <<: *default
+  encoding: utf8
+  database: concurrent_examples
+  username: root
+  password:
+  host: localhost
+
+test:
+  <<: *default
+  encoding: utf8
+  database: concurrent_examples
+  username: root
+  password:
+  host: localhost
