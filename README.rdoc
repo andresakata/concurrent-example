@@ -1,3 +1,1 @@
-== Concurrent Examples
 
-I created that project to make pratical examples of `concurrent-ruby` tools in a Rails app.
